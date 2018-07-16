@@ -30,14 +30,14 @@ function compareCards(){
     console.log(flippedCards);
     flippedCards[0].classList.toggle('match');
     flippedCards[1].classList.toggle('match');
-    //flippedCards = [];
+    flippedCards = [];
     //matchingClass();
   } else {
     //card.classList.remove('open', 'show');
     console.log('not a match!');
     toggleClass(flippedCards[0]);
     toggleClass(flippedCards[1]);
-    //flippedCards = [];
+    flippedCards = [];
 
   }
 };
